@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #0f0f1a, #000000);
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00f7ff;
+  text-align: center;
+  text-shadow:
+    0 0 5px #00f7ff,
+    0 0 10px #00f7ff,
+    0 0 20px #00f7ff,
+    0 0 40px #ff00ff;
+
+  letter-spacing: 3px;
+}
+
+.win {
+  color: #00ff9f;
+}
+
+.lose {
+  color: #ff0055;
+}
+
